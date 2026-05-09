@@ -9,7 +9,7 @@ OpenCode TUI plugin that shows active elapsed session time next to the session p
 Display example:
 
 ```text
-12m 34s·
+12m 34s
 ```
 
 The timer is rendered in the `session_prompt_right` slot. The time is bold and uses the current theme warning color. The trailing separator dot uses muted text color.
@@ -22,9 +22,7 @@ Add the source file directly to `~/.config/opencode/tui.json`:
 
 ```json
 {
-  "plugin": [
-    "/Users/dineshpandiyan/workspace/oc-timer/tui.tsx"
-  ]
+  "plugin": ["/Users/theuser/workspace/oc-timer/tui.tsx"]
 }
 ```
 
